@@ -1,4 +1,7 @@
 # MT3DMS version 5.3
+
+[![mt3dms checks](https://github.com/MODFLOW-USGS/mt3dms/actions/workflows/ci.yml/badge.svg)](https://github.com/MODFLOW-USGS/mt3dms/actions/workflows/ci.yml)
+
 A Modular 3-D Multi-Species Transport Model for Simulation of Advection, Dispersion, and Chemical Reactions of Contaminants in Groundwater Systems
 MT3DMS is the second generation of the modular three-dimensional transport model MT3D.  MT3DMS was developed with funding from the U.S. Army Corps of Engineers Waterways Experiment Station under the Strategic Environmental Research and Development Program (SERDP).  
 
