@@ -17,7 +17,8 @@ link_args = []
 extra_deps = []
 
 if fc_id == 'gcc'
-  compile_args += ['-fall-intrinsics', '-fbacktrace', '-ffpe-summary=overflow']
+  compile_args += ['-fall-intrinsics', '-fbacktrace', '-ffpe-summary=overflow',
+                   '-ffixed-line-length-132']
 endif
 
 if fc_id == 'intel' or fc_id == 'intel-cl'
