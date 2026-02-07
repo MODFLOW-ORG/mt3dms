@@ -102,8 +102,8 @@ jobs:
         working-directory: ${{ env.PROGRAM_NAME }}/bin
         if: runner.os == 'macOS'
         run: |
-          otool -L mf2000
-          lipo -info mf2000
+          otool -L mt3dms
+          lipo -info mt3dms
           
       - name: Show build log
         if: failure()
