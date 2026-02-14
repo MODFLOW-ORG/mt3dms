@@ -1,4 +1,4 @@
-name: mt3dms checks
+name: mt3dms CI/CD
 on:
   # run at 6 AM UTC every day
   schedule:
@@ -18,7 +18,7 @@ env:
   PROGRAM_NAME: mt3dms
 jobs:
   build:
-    name: Build and Test on ${{ matrix.os }} with ${{ matrix.compiler }} ${{ matrix.version }}
+    name: ${{ matrix.os }} ${{ matrix.compiler }} ${{ matrix.version }}
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false

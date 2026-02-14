@@ -1,4 +1,4 @@
-# MT3DMS version 5.3
+# MT3DMS
 
 [![mt3dms checks](https://github.com/MODFLOW-USGS/mt3dms/actions/workflows/ci.yml/badge.svg)](https://github.com/MODFLOW-USGS/mt3dms/actions/workflows/ci.yml)
 
@@ -9,8 +9,12 @@ MT3DMS has significantly expanded capabilities, including the addition of, 1) a 
 
 Additional information on MT3DMS can be found at [https://hydro.geo.ua.edu/mt3d/index.htm](https://hydro.geo.ua.edu/mt3d/index.htm).
 
---------------------------
+## Retrieval
 
 Downloaded as a self-extracting executable file (`mt3dms_530.exe`) on July 3, 2023 from [https://hydro.geo.ua.edu/mt3d/index.htm](https://hydro.geo.ua.edu/mt3d/index.htm).
 
-This repository was created to facilitate automatic builds of MT3DMS used in GitHub Actions CI workflows. Only the source files in the `mt3dms5.3.0/src/true-binary/` subdirectory available in the self-extracting executable file (`mt3dms_530.exe`), available from [https://hydro.geo.ua.edu/mt3d/index.htm](https://hydro.geo.ua.edu/mt3d/index.htm), have been included in this repository.
+Only the source files in the `mt3dms5.3.0/src/true-binary/` subdirectory available in the self-extracting executable file (`mt3dms_530.exe`), available from [https://hydro.geo.ua.edu/mt3d/index.htm](https://hydro.geo.ua.edu/mt3d/index.htm), have been included in this repository.
+
+## Disclaimer
+
+This repository is provided as a courtesy. Modifications may have been made, e.g. to version strings, or syntax/language constructs for compatibility with modern compilers and build systems. Use this resource at your own risk; it should be regarded as provisional and not as an authoritative substitute for the official software release by the original authors.
