@@ -2,6 +2,7 @@
 name = "mt3dms"
 channels = ["conda-forge"]
 platforms = ["linux-64", "osx-64", "osx-arm64", "win-64"]
+version = "5.3.0"
 
 [tasks]
 get-ostag = "python -c 'from modflow_devtools.ostags import get_ostag; print(get_ostag())'"

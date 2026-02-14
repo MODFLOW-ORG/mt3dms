@@ -69,7 +69,7 @@ jobs:
         if: ${{ matrix.release == 'yes' && runner.os == 'Linux' }}
         working-directory: ${{ env.PROGRAM_NAME }}
         run: |
-          zip -r ${{ env.PROGRAM_NAME }}_source.zip meson.build true-binary/
+          zip -r ${{ env.PROGRAM_NAME }}_source.zip meson.build src/
           ls -lha *.zip
 
       # static link gfortran libs
